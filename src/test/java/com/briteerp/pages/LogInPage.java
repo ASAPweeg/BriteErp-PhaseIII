@@ -6,14 +6,17 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class HomeAndSignInPage {
+public class LogInPage {
 
-    public HomeAndSignInPage() {
+    public LogInPage() {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
     @FindBy(linkText = "BriteErpDemo")
     public WebElement databaseSelector;
+
+    @FindBy(id = "db")
+    public WebElement currentDatabase;
 
     @FindBy(id = "login")
     public WebElement email;

@@ -12,6 +12,7 @@ public class TestTest extends TestBase {
         logInPage.managerLogIn();
     }
     // Erpan's shit
+    // yashars shit
 
     @Test
     public void positiveLoginTest1() {

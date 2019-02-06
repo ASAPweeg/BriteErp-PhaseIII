@@ -1,6 +1,7 @@
 package com.briteerp.tests.functional_tests;
 
-import com.briteerp.pages.HomeAndSignInPage;
+import com.briteerp.pages.LogInPage;
+import com.briteerp.pages.LogInPage;
 import com.briteerp.pages.PricelistsPage;
 import com.briteerp.tests.TestBase;
 import com.briteerp.utilities.Driver;
@@ -18,7 +19,7 @@ public class PricelistsPageTest extends TestBase {
 
     public void Test()throws InterruptedException{
 
-        HomeAndSignInPage homeAndSignInPage = new HomeAndSignInPage();
+        LogInPage homeAndSignInPage = new LogInPage();
 
         homeAndSignInPage.managerLogIn();
         PricelistsPage  pricelistsPage = new PricelistsPage();

@@ -1,6 +1,7 @@
 package com.briteerp.tests.functional_tests;
 
 import com.briteerp.pages.LogInPage;
+import com.briteerp.pages.QuotationsPage;
 import com.briteerp.tests.TestBase;
 import org.testng.annotations.Test;
 
@@ -16,5 +17,6 @@ public class TestTest extends TestBase {
     public void positiveLoginTest1() {
         LogInPage logInPage = new LogInPage();
         logInPage.userLogIn();
+
     }
 }

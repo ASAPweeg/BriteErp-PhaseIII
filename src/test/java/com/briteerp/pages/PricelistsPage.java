@@ -13,7 +13,7 @@ public class PricelistsPage {
     @FindBy(xpath ="//a[@data-menu-xmlid='sale.menu_product_pricelist_main']" )
     public WebElement pricelistsButton;
 
-      HomeAndSignInPage pricelistPage = new HomeAndSignInPage();
+    LogInPage pricelistPage = new LogInPage();
 
 
 }
